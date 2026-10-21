@@ -1,5 +1,5 @@
 # brain-tumor-classification
-Brain tumor classification from MRI scans using VGG19 transfer learning (98% accuracy).
+Brain tumor classification from MRI scans using VGG19 transfer learning (99% accuracy).
 ## Overview
 This project fine-tunes a pretrained VGG19 network to detect brain tumors in MRI images. Data augmentation and early stopping were used to reduce overfitting and stabilize training. Because false negatives are costly in a medical setting, the model was evaluated with precision, recall, F1-score, and AUC-ROC, not accuracy alone.
 
